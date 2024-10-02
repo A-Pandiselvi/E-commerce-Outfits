@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS OUTFIT</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon  -->
+    <link rel="shortcut icon"
+        href="C:\Users\pandi\OneDrive\Desktop\html-youtube-tutorial-main\html-youtube-tutorial-main\EMC Web Page HTML Project\starter\E-commerce project\images\logo.jpg"
+        type="image/x-icon">
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+        background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+</style>
+
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <h1>Korean Outfits</h1>
+
+        <ul class="nav-links">
+            <li class="nav-link"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="collection.html">Collections</a></li>
+            <li class="nav-link"><a href="contact.html">Contacts</a></li>
+            <li class="nav-link"><a href="reg.html">Signup</a></li>
+            <li class="nav-link"><a href="log.html">Login</a></li>
+
+        </ul>
+
+        <div class="nav-menu" style="color: white;" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+
+    </nav>
+
+
+    <!-- sidenav bar  -->
+    <div class="side-navbar">
+        <p class="xmark" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+
+        <ul class="sidenav-links">
+            <li class="sidenav-link"><a href="index.html">Home</a></li>
+            <li class="sidenav-link"><a href="collection.html">Collections</a></li>
+            <li class="sidenav-link"><a href="contact.html">Contacts</a></li>
+            <li class="sidenav-link"><a href="reg.html">Signup</a></li>
+            <li class="sidenav-link"><a href="log.html">Login</a></li>
+
+        </ul>
+    </div>
+
+    <!-- register page  -->
+
+    <div class="body-img">
+
+        <div class="container-reg">
+            <form action="" class="form" id="form">
+                <h1>Register Form</h1>
+                <div class="form-group ">
+                    <label for="">UserName</label>
+                    <input type="text" name="" id="username" data-name="username" placeholder="Enter UserName">
+                    <p>This is not a valid name</p>
+                </div>
+
+                <div class="form-group ">
+                    <label for="">Email</label>
+                    <input type="text" name="" data-name="e-mail" id="email" placeholder="Enter Email">
+                    <p>This is not a valid email</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="password" data-name="password" placeholder="Enter Password">
+                    <p>This is not a valid password</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="">UserName</label>
+                    <input type="password" name="" id="conform-password" data-name="confirm-password"
+                        placeholder="Enter Conform-Password">
+                    <p>This is not a valid con-password</p>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="foot">
+
+            <div class="foot-collect">
+                <h1>BTS Outfits</h1>
+                <div class="about-us">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, nam. Distinctio
+                    cupiditate explicabo deleniti omnis voluptates illum saepe fuga pariatur!</div>
+            </div>
+
+            <div class="foot-collect">
+                <h2>Categories</h2>
+                <p>T-shirts</p>
+                <p>Sweatshirts</p>
+                <p>Hoodies</p>
+                <p>Denim Jackets</p>
+            </div>
+
+            <div class="foot-collect">
+                <h2>Information</h2>
+                <p>About us</p>
+                <p>Contact us</p>
+                <p>Term & Condition</p>
+                <p>Shipping & Delivery</p>
+                <p>Private Policy</p>
+            </div>
+
+            <div class="foot-collect">
+                <h2>Contact</h2>
+                <p><i class="fa-solid fa-location-dot"></i> XYZ, Chennai, India , 626 101</p>
+                <p><i class="fa-solid fa-phone"></i> +91 6385391440</p>
+                <p><i class="fa-solid fa-envelope"></i> btsoutfits@gamil.com</p>
+                <div class="follow">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-google-plus"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <p class="copy-right">Copyright &copy; 2024 All rights reserved</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+    <script src="register.js"></script>
+</body>
+
+</html>
